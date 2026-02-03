@@ -653,7 +653,7 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
         >
             <div className='col-lg-12 col-md-12 col-sm-12 ' >
 
-<span className=' text-amber-600 animate-pulse mt-50   '> <FaStar size={40}  className=' ' /> </span>
+<span className=' text-amber-600 animate-pulse mt-50   flex flex-col items-center'> <FaStar size={40}  className=' ' /> </span>
 <p className=' text-amber-50 text-center text-3xl font-bold'>Ready to transform your ideas into reality?</p>
 <p className=' text-amber-50'>Let's embark on this journey together. Schedule a consultation to discuss <br /> your project and discover how we can bring your ideas to life with excellence.
 
