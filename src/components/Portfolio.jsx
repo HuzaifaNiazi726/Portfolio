@@ -182,7 +182,7 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 </div  >
 
 
-<div className='col-lg-6 col-md-6 col-sm-12 mt-5 justify-center   '>
+<div className='col-lg-6 col-md-6 col-sm-12 mt-5    '>
 
     
         <p className=' text-blue-400 text-4xl font-semibold'>Front-End Development</p>
@@ -594,24 +594,24 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
         </p>
         <p className=' text-amber-50'>Fundamental principles guiding our approach to excellence and innovation.</p>
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl bg-purple-900  hover:scale-105 transition duration-300 '>
-            <p className=' bg-gradient-to-r from-blue-500 to-black w-14 justify-center h-14 ml-25 rounded-2xl'>.</p>
+        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl bg-purple-900  hover:scale-105 transition duration-300 flex flex-col items-center '>
+            <p className=' bg-gradient-to-r from-blue-500 to-black w-14 justify-center h-14  rounded-2xl'>.</p>
             <p className=' text-amber-50 font-semibold text-2xl'>Agile Methodology</p>
             <p className='text-amber-50'> Iterative development with regular feedback and adaptation.</p>
 
         </div>
 
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl bg-purple-900 hover:scale-105 transition duration-300 '>
-            <p className=' bg-gradient-to-r from-green-500 to-black w-14 justify-center h-14 ml-25 rounded-2xl'>.</p>
+        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl bg-purple-900 hover:scale-105 transition duration-300   flex flex-col items-center'>
+            <p className=' bg-gradient-to-r from-green-500 to-black w-14 justify-center h-14  rounded-2xl'>.</p>
             <p className=' text-amber-50 font-semibold text-2xl'>Clean Code</p>
             <p className='text-amber-50'> Maintainable , scalable and well-documented codebase</p>
 
         </div>
 
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl justify-center bg-purple-900  hover:scale-105 transition duration-300 '>
-            <p className=' bg-gradient-to-r from-amber-500 to-black w-14  h-14 ml-25 rounded-2xl'>.</p>
+        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl justify-center bg-purple-900  hover:scale-105 transition duration-300   flex flex-col items-center'>
+            <p className=' bg-gradient-to-r from-amber-500 to-black w-14  h-14  rounded-2xl'>.</p>
             <p className=' text-amber-50 font-semibold text-2xl'>Performanced Focused</p>
             <p className='text-amber-50'> Optimized for speed and excellent user experience.</p>
 
@@ -619,27 +619,31 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 
 
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900 hover:scale-105 transition-transform duration-300 '>
-            <p className=' bg-gradient-to-r from-blue-500 to-black w-14 justify-center h-14 ml-25 rounded-2xl'>.</p>
+        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900 hover:scale-105 transition-transform duration-300  flex flex-col items-center'>
+            <p className=' bg-gradient-to-r from-blue-500 to-black w-14 justify-center h-14  rounded-2xl'>.</p>
             <p className=' text-amber-50 font-semibold text-2xl'>Continuous Update</p>
             <p className='text-amber-50'> Regular update and maintenance for long-term success.</p>
 
         </div>
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900  hover:scale-105 transition duration-300 '>
-            <p className=' bg-gradient-to-r from-amber-500 to-black w-14 justify-center h-14 ml-25 rounded-2xl'>.</p>
+        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900  hover:scale-105 transition duration-300 flex flex-col items-center '>
+            <p className=' bg-gradient-to-r from-amber-500 to-black w-14 flex items-center justify-center h-14  rounded-2xl'>.</p>
             <p className=' text-amber-50 font-semibold text-2xl'>Secruity First</p>
             <p className='text-amber-50'> Build with security  best practices from round up.</p>
 
         </div>
 
 
-        <div className=' col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900 hover:scale-105 transition duration-300 '>
-            <p className=' bg-gradient-to-r from-green-500 to-black w-14 justify-center h-14 ml-25 rounded-2xl'>.</p>
-            <p className=' text-amber-50 font-semibold text-2xl'>Responsive Design</p>
-            <p className='text-amber-50'> Best experiencence for all devices and  screen  sizes.</p>
+        <div className="col-lg-3 col-md-6 col-sm-12 pt-9 border rounded-3xl mt-4 bg-purple-900 hover:scale-105 transition duration-300 flex flex-col items-center">
+    <p className="bg-gradient-to-r from-green-500 to-black w-14 h-14 rounded-2xl flex items-center justify-center text-white text-2xl">
+        
+    </p>
+    <p className="text-amber-50 font-semibold text-2xl mt-3 text-center">Responsive Design</p>
+    <p className="text-amber-50 text-center">Best experience for all devices and screen sizes.</p>
+</div>
 
-        </div> 
+
+        
 
 
         </div>  
@@ -671,7 +675,7 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
       <div className="w-14 h-14 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
         <FaUser className="text-white text-xl" />
       </div>
-      <p className="mt-3 text-purple-300">Your Details</p>
+      <p className="mt-3 text-purple-300">Personal Details</p>
     </div>
 
     {/* LINE */}
@@ -710,7 +714,7 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 <>      
     <div className='col-lg-8 col-md-8 col-sm-8 pt-9 pb-9 '>
 
-        <p className='text-white font-bold text-3xl'> <span><FaUser className="text-white text-xl" /></span> Personal details </p>
+        <p className='text-white font-bold text-3xl'>  Personal details </p>
         <label htmlFor="name"  className=' text-amber-50 text-2xl'>Full Name</label> 
         <br />
         <input type="text" id="name"
