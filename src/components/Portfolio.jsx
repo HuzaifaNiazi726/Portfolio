@@ -72,7 +72,7 @@ const [formData, setFormData] = useState({
 
     return (
         
-        <>
+        <div className=' bg-black'  >
             <div className="row bg-black " id='Home' >
 
 
@@ -172,23 +172,23 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 
 
 <div className='col-lg-6 col-md-6 col-sm-6 mt-5' > 
-    <h1 className='text-amber-50'>  <span className=' text-amber-50'> My Journey </span> </h1>
-    <p className='text-amber-50 pt-3 pl-13'>I began my development journey with a strong curiosity for building meaningful and impactful digital experiences. <br /> Over time, this curiosity evolved into a deep passion for front-end development where I focus on creating  scalable, performant applications.  <br />I primarily work with the front-end and enjoy transforming complex ideas into clean, efficient solutions.
+    <h1 className='text-amber-50 flex flex-col items-center'>  <span className=' text-amber-50'> My Journey </span> </h1>
+    <p className='text-amber-50 pt-3 pl-13  flex flex-col items-center '>I began my development journey with a strong curiosity for building meaningful and impactful digital experiences. <br /> Over time, this curiosity evolved into a deep passion for front-end development where I focus on creating  scalable, performant applications.  <br />I primarily work with the front-end and enjoy transforming complex ideas into clean, efficient solutions.
 </p>
 
-<p className='text-amber-50'> <span className=' text-blue-700 text-6xl'>.</span> Hands-on experience in developing full-stack applications using <br /> <span className=' font-semibold'>JavaScript, React, Tailwind. </span></p>
-<p className='text-amber-50'> <span className=' text-blue-700 text-6xl'>.</span>  Successfully delivered multiple projects including <br /> <span className=' font-semibold'> e-commerce platforms, dashboards, and real-time applications. </span></p>
-<p className='text-amber-50'> <span className=' text-blue-700 text-6xl'>.</span> Strong focus on writing clean, maintainable code with attention to  <br /> <span className=' font-semibold'> performance, accessibility, and responsiveness.</span></p>
+<p className='text-amber-50 flex flex-col items-center '> <span className=' text-blue-700 text-6xl'>.</span> Hands-on experience in developing full-stack applications using <br /> <span className=' font-semibold'>JavaScript, React, Tailwind. </span></p>
+<p className='text-amber-50 flex flex-col items-center'> <span className=' text-blue-700 text-6xl'>.</span>  Successfully delivered multiple projects including <br /> <span className=' font-semibold'> e-commerce platforms, dashboards, and real-time applications. </span></p>
+<p className='text-amber-50 flex flex-col items-center'> <span className=' text-blue-700 text-6xl'>.</span> Strong focus on writing clean, maintainable code with attention to  <br /> <span className=' font-semibold'> performance, accessibility, and responsiveness.</span></p>
 </div  >
 
 
-<div className='col-lg-6 col-md-6 col-sm-12 mt-5    '>
+<div className='col-lg-6 col-md-6 col-sm-12 mt-5  flex flex-col items-center   '>
 
     
         <p className=' text-blue-400 text-4xl font-semibold'>Front-End Development</p>
         
-        <p className='w-50 h-12 pt-2  cursor-pointer   text-2xl text-blue-400 bg-gradient-to-r from-blue-950 to-purple-950 rounded-lg hover:shadow-lg hover:shadow-blue-500 transition duration-300 '> React  </p>
-        <p className=' w-50 h-12 pt-2  cursor-pointer  text-2xl text-blue-400 bg-gradient-to-r from-blue-950 to-purple-950 rounded-lg hover:shadow-lg hover:shadow-blue-500 transition duration-300 '> JavaScript  </p>
+        <p className='w-50 h-12 pt-2  cursor-pointer   text-2xl text-blue-400 bg-gradient-to-r from-blue-950 to-purple-950 rounded-lg hover:shadow-lg hover:shadow-blue-500 transition duration-300  '> React  </p>
+        <p className=' w-50 h-12 pt-2  cursor-pointer  text-2xl text-blue-400 bg-gradient-to-r from-blue-950 to-purple-950 rounded-lg hover:shadow-lg hover:shadow-blue-500 transition duration-300  '> JavaScript  </p>
         
         
         <p className=' w-50 h-12 pt-2 cursor-pointer text-2xl text-blue-400 bg-gradient-to-r from-blue-950 to-purple-950 rounded-lg hover:shadow-lg hover:shadow-blue-500 transition duration-300 '> Tailwind CSS  </p>
@@ -218,27 +218,27 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 
 
     
-        <div className='col-lg-3 col-md-3 col-sm-12 '>
+        <div className='col-lg-3 col-md-3 col-sm-12 flex flex-col items-center '>
     <div className=' cursor-pointer text-amber-50 border rounded-lg bg-gradient-to-r from-blue-950 to-purple-950 w-60 '>
-        <FaGithub className=' ml-30 ' size={40} />
+        <FaGithub className=' ml-25 ' size={40} />
         <p className=' text-2xl font-semibold '> Clean Code</p>
         <p>Optimize code for <br /> readability and maintainability.</p>
 
     </div>
     </div>
     
-<div className=' col-lg-3 col-md-3 col-sm-12 '>
+<div className=' col-lg-3 col-md-3 col-sm-12 flex flex-col items-center '>
     <div className=' cursor-pointer text-amber-50 border rounded-lg bg-gradient-to-r from-blue-950 to-purple-950 w-60  '>
-        <FaGithub className=' ml-30' size={40} />
+        <FaGithub className='ml-25' size={40} />
         <p className=' text-2xl font-semibold '> Clean Code</p>
         <p>Optimize code for <br /> readability and maintainability.</p>
 
     </div>
     </div>
 
-<div className=' col-lg-3 col-md-3 col-sm-12 '>
+<div className=' col-lg-3 col-md-3 col-sm-12 flex flex-col items-center '>
     <div className=' cursor-pointer text-amber-50 border rounded-lg bg-gradient-to-r from-blue-950 to-purple-950 w-60 '>
-        <FaGithub className='ml-30' size={40} />
+        <FaGithub className='ml-25' size={40} />
         <p className=' text-2xl font-semibold '> Clean Code</p>
         <p>Optimize code for <br /> readability and maintainability.</p>
 
@@ -246,9 +246,9 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
     </div>
     
 
-<div className=' col-lg-3 col-md-3 col-sm-12'>
+<div className=' col-lg-3 col-md-3 col-sm-12 flex flex-col items-center'>
     <div className=' cursor-pointer text-amber-50 border rounded-lg bg-gradient-to-r from-blue-950 to-purple-950 w-60  '>
-        <FaGithub className='ml-30' size={40} />
+        <FaGithub className='ml-25' size={40} />
         <p className=' text-2xl font-semibold '> Clean Code</p>
         <p>Optimize code for <br /> readability and maintainability.</p>
 
@@ -1083,7 +1083,7 @@ hover:shadow-lg hover:shadow-blue-900 transition duration-300">
 
 
 
-      </>  
+      </div> 
         
 
     )
